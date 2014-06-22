@@ -63,7 +63,7 @@ SO,1,0
 'Starting move of workpiece
 J2,6.000000,1.000000
 MSGBOX (Release hold down clamps so we can slide the material over, 0, Go baby Go )
-MZ,-.25
+MZ,-.0625
 MX,0
 MZ,.8
 MSGBOX (Clamp material back down for the next cut, 0, Go baby Go )
