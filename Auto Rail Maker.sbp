@@ -60,6 +60,8 @@ JZ,0.800000
 '
 'Turning router OFF
 SO,1,0
+' Is the spindle totally stopped? If so, hit OK to move the piece.
+PAUSE
 'Starting move of workpiece
 J2,6.000000,1.000000
 MSGBOX (Release hold down clamps so we can slide the material over, 0, Go baby Go )
